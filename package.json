@@ -10,6 +10,7 @@
     "test:ci": "yarn test -- --coverage"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/faker": "^5.1.2",
     "@types/jest": "26.0.14",
     "@types/node": "14.11.2",
@@ -28,5 +29,8 @@
     "lint-staged": "10.4.0",
     "ts-jest": "26.4.0",
     "typescript": "4.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
   }
 }
